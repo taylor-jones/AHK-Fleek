@@ -1,0 +1,10 @@
+; ////////////////////////////////////////////////
+;                     Auto-Extract
+; ////////////////////////////////////////////////
+AutoExtract()
+{
+	BlockInput, On
+	SendInput, {LButton}{RButton}7eee{Enter}
+	BlockInput, Off
+	Return
+}
